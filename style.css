@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+.login, .agenda, .notificacoes {
+  display: none;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #3367d6;
+}
+
+.dia {
+  margin: 5px 0;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.dia.vago {
+  background: #d0ffd0;
+}
+
+.dia.ocupado {
+  background: #ffdddd;
+}

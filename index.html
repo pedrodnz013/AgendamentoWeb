@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Agenda Psicológica</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<h2>Bem-vindo à Agenda Psicológica</h2>
+
+<!-- Login -->
+<div id="telaLogin" class="login">
+  <p>
+    Tipo de usuário: 
+    <select id="tipoUsuario">
+      <option value="paciente">Paciente</option>
+      <option value="psicologo">Psicólogo</option>
+    </select>
+  </p>
+  <input id="usuario" placeholder="Nome de usuário"><br>
+  <input id="senha" type="password" placeholder="Senha"><br>
+  <button class="btn" onclick="entrar()">Entrar</button>
+</div>
+
+<!-- Agenda -->
+<div id="telaAgenda" class="agenda">
+  <h3>Agenda</h3>
+  <div id="diasAgenda"></div>
+</div>
+
+<!-- Notificações -->
+<div id="notificacoes" class="notificacoes">
+  <h4>Notificações</h4>
+  <ul id="listaNotificacoes"></ul>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
